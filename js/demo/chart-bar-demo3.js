@@ -3,25 +3,57 @@
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+                labels: ["Team player", "Discipline", "Agressiveness", "Fitness", "Performance"],
                 datasets: [{
-                    label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
+                    label: 'Sports Analysis',
+                    data: [16, 11, 4, 8, 15],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
                         'rgba(255, 206, 86, 0.2)',
                         'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        'rgba(153, 102, 255, 0.2)'
                     ],
                     borderColor: [
                         'rgba(255,99,132,1)',
                         'rgba(54, 162, 235, 1)',
                         'rgba(255, 206, 86, 1)',
                         'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        'rgba(153, 102, 255, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+		var ctx = document.getElementById("myChart2").getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Age appropriate video content", "Peace at home", "Team Player", "Compliance"],
+                datasets: [{
+                    label: 'Behaviour Analysis',
+                    data: [8, 19, 3, 5],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)'
                     ],
                     borderWidth: 1
                 }]
@@ -42,7 +74,7 @@
         var myPieChart = new Chart(ctxP, {
             type: 'pie',
             data: {
-                labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
+                labels: ["Performance", "Team player", "Fitness", "Age appropriate video content", "Complliance"],
                 datasets: [{
                     data: [300, 50, 100, 40, 120],
                     backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
@@ -61,9 +93,9 @@
         var myLineChart = new Chart(ctxL, {
             type: 'line',
             data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
+                labels: ["January", "February", "March", "April", "May", "June"],
                 datasets: [{
-                        label: "My First dataset",
+                        label: "Sports Analysis",
                         backgroundColor: [
                             'rgba(105, 0, 132, .2)',
                         ],
@@ -74,7 +106,7 @@
                         data: [65, 59, 80, 81, 56, 55, 40]
                     },
                     {
-                        label: "My Second dataset",
+                        label: "Behaviour Analysis",
                         backgroundColor: [
                             'rgba(0, 137, 132, .2)',
                         ],
@@ -96,7 +128,7 @@
         var myRadarChart = new Chart(ctxR, {
             type: 'radar',
             data: {
-                labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+                labels: ["Team player", "Discipline", "Agressiveness", "Fitness", "Performance", "Peace at home", "Compliance"],
                 datasets: [{
                     label: "My First dataset",
                     data: [65, 59, 90, 81, 56, 55, 40],

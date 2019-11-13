@@ -70,110 +70,110 @@
     {
       question: "1. How often the student takes up a leadership role?",
       answers: {
-        a: "5 – Very frequently",
-        b: "4 - More Often",
-        c: "3 – Whenever given the opportunity",
-		d: "2 – Very rarely (Needs push)",
-		e: "1 – Never"
+        a: "Never",
+        b: "Very rarely (Needs push)",
+        c: "Whenever given the opportunity",
+		d: "More Often",
+		e: "Very frequently"
       },
       // correctAnswer: "c"
     },
     {
       question: "2. How well does the student collaborate with their team?",
       answers: {
-        a: "5 – Deliberately performing poor/Egoistic",
-        b: "4 – is biased with certain teammates leading to failures/performance degradation",
-        c: "3 – Neutral (Self-centered/Not collaborative)",
-		d: "2 – Collaborates satisfactorily",
-		e: "1 – sets the pace of the team"
+        a: "Deliberately performing poor/Egoistic",
+        b: "is biased with certain teammates leading to failures/performance degradation",
+        c: "Neutral (Self-centered/Not collaborative)",
+		d: "Collaborates satisfactorily",
+		e: "sets the pace of the team"
       },
      // correctAnswer: "c"
     },
     {
-      question: "3. Is the student compassionate to their teammates?",
+      question: "3. How often does the student bunk the physical activity class?",
       answers: {
-        a: "1 - Not compassionate ",
-        b: "2 – Compassionate at times",
-        c: "3 – Compassionate with a few",
-		d: "4 – Compassionate with most of them",
-		e: "5 – Compassionate with all"
+        a: "Always",
+        b: "Used to previously",
+        c: "Moderately",
+		d: "Rarely",
+		e: "Never"
       },
      // correctAnswer: "d"
     },
 	{
-      question: "4. What is the level of involvement of the student in the respective sports?",
+      question: "4. How disciplined is the student’s overall performance in the sport?",
       answers: {
-        a: "1 – Not interested",
-        b: "2 – Mildly interested",
-        c: "3 – Interested",
-		d: "4 – Passionate ",
-		e: "5 – Immersed"
+        a: "Always",
+        b: "Used to previously",
+        c: "Moderately",
+		d: "Rarely",
+		e: "Never"
       },
      // correctAnswer: "c"
     },
 	{
-      question: "5. What is the student’s physical movement level? (Game Specific*)",
+      question: "5. How aggressive a student behaves in a situation of conflict with their teammates?",
       answers: {
-        a: "1 – Static",
-        b: "2 – Sluggish Movements",
-        c: "3 – Normal",
-		d: "4 – Fast ",
-		e: "5 – Excessive (More than Necessary)"
+        a: "Excessive Aggressive",
+        b: "Aggressive",
+        c: "Passive Aggressive",
+		d: "Mildly Passive Aggressive",
+		e: "Passive"
       },
      // correctAnswer: "c"
     },
 	{
-      question: "6. How disciplined is the student’s overall performance in the sport?",
+      question: "6. How does the student handle a loss in sport?",
       answers: {
-        a: "1 – Does not abide by Rules",
-        b: "2 – Forgets the Rules",
-        c: "3 – Follows the Rules to best of their capacity ",
-		d: "4 –  ",
-		e: "5 – "
+        a: "Lose desire to play again",
+        b: "Blame others for their failure/Showing Aggression",
+        c: " Normal",
+		d: "Selfaware and helpful",
+		e: "Takes input from the loss and employs in the next game"
       },
      // correctAnswer: "c"
     },
 	{
-      question: "7. How aggressive a student behaves in a situation of conflict with their teammates?",
+      question: "7. What is the student’s level of physical fitness?",
       answers: {
-        a: "1 – Passive",
-        b: "2 – Mildly Passive Aggressive",
-        c: "3 – Passive Aggressive ",
-		d: "4 – Aggressive",
-		e: "5 – Excessive Aggressive (lasts for few days, affects their performance in coming days)"
+        a: "Not Fit to be in Sport",
+        b: "Needs improvemet",
+        c: "Average  ",
+		d: "Sufficient",
+		e: "Good Fitness level"
       },
      // correctAnswer: "c"
     },
 	{
-      question: "8. What is the student’s level of physical fitness?",
+      question: "8. What is the student’s physical movement level? (Game Specific*)",
       answers: {
-        a: "1 – Sedentary",
-        b: "2 – Mildly showcase Strength and Flexibility",
-        c: "3 – Showcase Sufficient Strength and Flexibility",
-		d: "4 – Cardiorespiratory (Endurance Exercise)-Pushing the limits ",
-		e: "5 – Above required physical fitness"
+        a: "Static",
+        b: "Sluggish Movements",
+        c: "Normal",
+		d: "Satisfactory",
+		e: "Fast"
       },
      // correctAnswer: "c"
     },
 	{
-      question: "9. How does the student handle a loss in sport?",
+      question: "9. What is the level of involvement of the student in the respective sports?",
       answers: {
-        a: "1 – Lose desire to play again",
-        b: "2 – Blame others for their failure/Showing Aggression ",
-        c: "3 – Normal",
-		d: "4 – Selfaware and helpful ",
-		e: "5 – Takes input from the loss and employs in the next game"
+        a: "Not interested",
+        b: "Mildly interested",
+        c: "Interested",
+		d: "Passionate",
+		e: "Passionate"
       },
      // correctAnswer: "c"
     },
 {
       question: "10. How well is a student performing individually?",
       answers: {
-        a: "1 – Perform",
-        b: "2 – Perform very well at speed and/or under fatigue",
-        c: "3 – Perform very well at speed and/or under fatigue under pressure*",
-		d: "4 – Perform very well at speed and/or under fatigue under pressure consistently*",
-		e: "5 – Perform very well at speed and/or under fatigue under pressure consistently in competitive conditions*"
+        a: "Perform",
+        b: "Perform very well at speed and/or under fatigue",
+        c: "Perform very well at speed and/or under fatigue under pressure*",
+		d: "Perform very well at speed and/or under fatigue under pressure consistently*",
+		e: "Perform very well at speed and/or under fatigue under pressure consistently in competitive conditions*"
       },
      // correctAnswer: "c"
     }
